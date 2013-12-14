@@ -29,5 +29,11 @@ namespace MusikSaugen
         {
             scaner = new Scaner(this.webBrowser1);
         }
+
+        private void toolStripButton1_Click(object sender, EventArgs e)
+        {
+            Help help = new Help();
+            help.Show();
+        }
     }
 }
